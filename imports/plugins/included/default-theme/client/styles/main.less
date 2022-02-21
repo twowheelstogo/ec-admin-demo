@@ -1,0 +1,47 @@
+/**
+ * WARNING - DEPRECATED
+ * These styles are a leftover from the Meteor-only all-in-one UI. Some of them are still needed for global styles and
+ * components that haven't been ported over to Material UI yet.
+ */
+
+
+// -----------------------------------------------------------------------------
+// Import Bootstrap 3 Styles
+//
+
+// Core variables and mixins
+@import "{}/node_modules/bootstrap/less/variables.less";
+@import "{}/node_modules/bootstrap/less/mixins.less";
+
+// Reset and dependencies
+@import "{}/node_modules/bootstrap/less/normalize.less";
+
+// Core CSS
+@import "{}/node_modules/bootstrap/less/scaffolding.less";
+@import "{}/node_modules/bootstrap/less/type.less";
+@import "{}/node_modules/bootstrap/less/tables.less";
+@import "{}/node_modules/bootstrap/less/buttons.less";
+
+// Components
+@import "{}/node_modules/bootstrap/less/panels.less";
+
+// -----------------------------------------------------------------------------
+// Reaction Core theme files
+//
+
+// Base Styles
+@import "base.less";
+@import "button.less";
+@import "cardGroup.less";
+@import "cards.less";
+@import "fonts.less";
+@import "mixins.less";
+@import "panels.less";
+@import "sortableTable.less";
+@import "textfield.less";
+@import "variables.less";
+
+// Dashboard
+@import "dashboard/emailConfig.less";
+@import "dashboard/shippingConfig.less";
+@import "dashboard/tables.less";
